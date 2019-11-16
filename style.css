@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #D2F3FA;
+    background-color: #0A0B23;
+}
+
+nav{
+    width: 100%;
+    background-color: #0A0B23;
+    overflow: hidden;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+}
+
+ul{
+    margin: 0;
+    float: right;
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+a{
+    font-weight: 700;
+    position: relative;
+    width: 150px;
+    line-height: 3.3;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16pt;
+    cursor:pointer;
+    transition: 0.2s;
+    height: 70px;
+}
+
+a:hover{
+    color: #0A0B23;
+    background-color: #fff;
+}
+
+#hello{
+    height: 1000px;
+    background-image: url(background.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+}
+
+#about{
+    padding: 0;
+    height: 1000px;
+    background: #0A0B23;
+    display: inline-block;
+    width: 100%;
+}
+
+#portfolio{
+    height: 1000px;
+    background: #0A0B23;
+    display: inline-block;
+    width: 100%;
+}
+
+#contact{
+    height: 1000px;
+    background: #0A0B23;
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40pt;
+}
+
+h4{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #D2F3FA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.button{
+    display: inline-block;
+    background: rgb(9, 10, 37);
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    font-family: 'Raleway';
+  }
+#query{
+    border:1px solid #0A0B23;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+#query input,#query textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
